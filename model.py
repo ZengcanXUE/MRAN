@@ -239,7 +239,7 @@ class MRAN(torch.nn.Module):
         y = self.conv(y.squeeze(-1).transpose(-1, -2)).transpose(-1, -2).unsqueeze(-1)
         # Multi-scale information fusion
         y = self.sigmoid(y)
-        x = x * y   # 注意力作用每一个通道上 squeeze-excitation-reweight
+        x = x * y   # squeeze-excitation-reweight
 
         x = self.bn1(x)
         x = torch.relu(x)
