@@ -2,7 +2,8 @@
 Please cite the following paper if you use this code in your work.
 
 ```bibtex
-@article{XUE2023120953,
+@article{MRAN,
+author = {Zengcan Xue and Zhaoli Zhang and Hai Liu and Shuoqiu Yang and Shuyun Han},
 title = {Learning knowledge graph embedding with multi-granularity relational augmentation network},
 journal = {Expert Systems with Applications},
 volume = {233},
